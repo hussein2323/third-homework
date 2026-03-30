@@ -3,7 +3,7 @@ def largest_number(numbers):
         largest = max(numbers)
         print("The largest number is:", largest)
     else:
-        print("list is empty.")
+        print("list is empty. ")
 
 
 n = int(input("enter the length of the list: "))

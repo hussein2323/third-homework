@@ -1,8 +1,10 @@
-nums = [23,42,12,35,23,23]
+numbers = [31, 6, 17, 12, 4, 31, 25]
 
-for n in nums:
-    if nums.count(n) > 1:
-        while nums.count(n) > 1:
-            nums.remove(n)
+Not_duplicated = []
 
-print(nums)
+for num in numbers:
+    if num not in Not_duplicated:
+        Not_duplicated.append(num)
+
+print(" before :", numbers)
+print(" after  removing:", Not_duplicated)

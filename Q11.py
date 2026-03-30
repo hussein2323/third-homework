@@ -1,5 +1,5 @@
-def rectangle(length, width):
-    area = length * width
+def rectangle(Length, Width):
+    area = Length * Width
     return area
 
 # Example usage:

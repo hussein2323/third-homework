@@ -5,7 +5,7 @@ def random_number():
 
 def guess(target):
     while True:
-        guess = int(input("Guess the number (1-100): "))
+        guess = int(input("Guess the number (1-100):  "))
         if guess < target:
             print("Too low!")
         elif guess > target:

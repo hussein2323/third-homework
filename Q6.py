@@ -5,6 +5,6 @@ common = []
 
 for i, j in zip(list1, list2):
     if i == j:
-        common.append(i)
+        common.append( i )
 
 print(common)

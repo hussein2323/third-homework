@@ -5,7 +5,7 @@ def check(username, password):
         return False
     return True
 
-user2 = input("Enter your username: ")
+user2 = input("Enter your username:  ")
 password2 = input("Enter your password: ")
 
 if check(user2, password2):
