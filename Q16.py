@@ -11,7 +11,7 @@ def guess(target):
         elif guess > target:
             print("Too high!")
         else:
-            print("good job ")
+            print("good job  ")
             break
 
 number_to_guess = random_number()
