@@ -1,4 +1,4 @@
-st = input("Enter a string: ")
+st = input("Enter your string: ")
 count = 0
 for ch in st.lower():
     if ch in "aeiou":
